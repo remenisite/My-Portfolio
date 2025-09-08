@@ -11,6 +11,10 @@ import ld1 from '../assets/images/m-cep (ld).png'
 import ld2 from '../assets/images/portfolio (ld).png'
 import ld3 from '../assets/images/silicon1 (ld).png'
 import ld4 from '../assets/images/silicon2 (ld).png'
+import firebase from '../assets/images/firebase copy.png'
+import whether from '../assets/images/wheter(js).png'
+import multi from '../assets/images/multi.png'
+import todo from '../assets/images/to-do.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 
@@ -65,7 +69,7 @@ return (
   </div>
 </div>
 
-  <div className="flex gap-[40px]  justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
+  <div className="flex gap-[40px] my-[50px]  justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
   <div data-aos="zoom-in-left" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
     <h2 className="text-[21px] font-medium font-main text-[#fff]">Can-Vix</h2>
     <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
@@ -93,7 +97,7 @@ return (
   </div>
 </div>
 
-  <div className="flex gap-[40px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
+  <div className="flex gap-[40px] my-[50px]  justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
   <div data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
@@ -129,7 +133,7 @@ return (
 
 {/* ------------------ landing page */}
 
-  <div className="flex gap-[40px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
+  <div className="flex gap-[40px] my-[50px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
   <div data-aos="fade-right" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
     <h2 className="text-[21px] font-medium font-main text-[#fff]">Landing M-cep</h2>
     <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
@@ -162,7 +166,7 @@ return (
 </div>
 
 
-  <div className="flex gap-[40px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
+  <div className="flex gap-[40px] my-[50px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
   <div  data-aos="fade-right" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
     <h2 className="text-[21px] font-medium font-main text-[#fff]">Landing silicon</h2>
     <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
@@ -177,7 +181,7 @@ return (
 </div>
 
 
-  <div className="flex gap-[40px] justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
+  <div className="flex gap-[40px]  justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
   <div data-aos="fade-right"
      data-aos-offset="300"
      data-aos-easing="ease-in-sine" className="w-[400px] h-[350px]  overflow-hidden max-md:w-full max-md:h-[220px]"><img src={ld4} alt="portfolio img" className="w-full h-full object-cover" /></div>
@@ -197,9 +201,9 @@ return (
 
 {/* ---------- javascript */}
 
-  <div className="flex gap-[40px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
-  <div className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
-    <h2 className="text-[21px] font-medium font-main text-[#fff]">Nex-ton</h2>
+  <div className="flex gap-[40px] my-[50px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
+  <div data-aos="zoom-in-left" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
+    <h2 className="text-[21px] font-medium font-main text-[#fff]">Js-To-do</h2>
     <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
     <p className="text-[16px] font-normal font-main text-[#9F9F9F]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, doloremque aperiam placeat vitae ab suscipit labore consectetur natus soluta hic quo, nesciunt saepe praesentium corporis doloribus adipisci commodi harum?</p> </div>
 
@@ -208,14 +212,14 @@ return (
     </div>
 
   </div>
-  <div className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"><img src="#" alt="portfolio img" className="w-full h-full object-cover" /></div>
+  <div data-aos="zoom-in-right" className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"><img src={todo} alt="portfolio img" className="w-full h-full object-cover" /></div>
 </div>
 
 
   <div className="flex gap-[40px] justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
-  <div className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"><img src="#" alt="portfolio img" className="w-full h-full object-cover" /></div>
-  <div className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
-    <h2 className="text-[21px] font-medium font-main text-[#fff]">Nex-ton</h2>
+  <div  data-aos="fade-right" className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"><img src={multi} alt="portfolio img" className="w-full h-full object-cover" /></div>
+  <div  data-aos="fade-left" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
+    <h2 className="text-[21px] font-medium font-main text-[#fff]">Js-Multiplication</h2>
     <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
     <p className="text-[16px] font-normal font-main text-[#9F9F9F]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, doloremque aperiam placeat vitae ab suscipit labore consectetur natus soluta hic quo, nesciunt saepe praesentium corporis doloribus adipisci commodi harum?</p> </div>
 
@@ -226,9 +230,11 @@ return (
   </div>
 </div>
 
-  <div className="flex gap-[40px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
-  <div className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
-    <h2 className="text-[21px] font-medium font-main text-[#fff]">Nex-ton</h2>
+  <div className="flex gap-[40px]  my-[50px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
+  <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
+    <h2 className="text-[21px] font-medium font-main text-[#fff]">Js-Whether</h2>
     <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
     <p className="text-[16px] font-normal font-main text-[#9F9F9F]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, doloremque aperiam placeat vitae ab suscipit labore consectetur natus soluta hic quo, nesciunt saepe praesentium corporis doloribus adipisci commodi harum?</p> </div>
 
@@ -237,15 +243,21 @@ return (
     </div>
 
   </div>
-  <div className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"><img src="#" alt="portfolio img" className="w-full h-full object-cover" /></div>
+  <div data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"><img src={whether} alt="portfolio img" className="w-full h-full object-cover" /></div>
 </div>
 
 {/* -------------- firebase */}
 
   <div className="flex gap-[40px] justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
-  <div className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"><img src="#" alt="portfolio img" className="w-full h-full object-cover" /></div>
-  <div className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
-    <h2 className="text-[21px] font-medium font-main text-[#fff]">Nex-ton</h2>
+  <div data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"><img src={firebase} alt="portfolio img" className="w-full h-full object-cover" /></div>
+  <div data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
+    <h2 className="text-[21px] font-medium font-main text-[#fff]">Firebase-Note</h2>
     <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
     <p className="text-[16px] font-normal font-main text-[#9F9F9F]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, doloremque aperiam placeat vitae ab suscipit labore consectetur natus soluta hic quo, nesciunt saepe praesentium corporis doloribus adipisci commodi harum?</p> </div>
 
@@ -267,3 +279,6 @@ return (
 };
 
 export default Portfolio;
+
+
+

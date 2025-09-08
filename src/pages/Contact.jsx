@@ -30,7 +30,7 @@ const Contact = () => {
             </Link>{" "}
           </div>
           {/*------------- Contact Form */}
-          <div className="w-full max-w-[900px] mx-auto px-2 sm:px-4 md:px-8">
+          <div   className="w-full max-w-[900px] mx-auto px-2 sm:px-4 md:px-8">
             <h2  className="text-[22px] sm:text-[24px] font-medium font-main text-[#F0F0F0]">
               Message Me
             </h2>

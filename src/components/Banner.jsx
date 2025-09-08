@@ -10,16 +10,7 @@ import {
 import { FaFacebookF } from "react-icons/fa";
 import { TbBrandGithub } from "react-icons/tb";
 
-
-
-
-
-
 const Banner = () => {
-
-
-
-
   return (
     <section
       id="banner"

@@ -40,7 +40,7 @@ const Navbar = () => {
   return (
     <nav id="navbar" className="bg-[#101010] sticky top-0 z-50">
       <div className="container">
-        <div id="navbar-row" className="flex items-center justify-between">
+        <div id="navbar-row" className="flex items-center px-[20px] lg:px-0  justify-between">
           {/*----------- main -Logo */}
           <Link to="/">
             <img className="w-24 h-auto" src={logo} alt="my-logo" />

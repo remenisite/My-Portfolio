@@ -49,7 +49,22 @@ const Banner = () => {
         </a>
       </div>
       <div className="container ">
-        <div id="banner-row" className="flex justify-around items-center">
+        <div id="banner-row" className=" lg:flex justify-around items-center px-[20px] lg:px-0">
+
+
+                 <div
+         
+            className=" w-[320px] h-[320px] lg:hidden  relative rounded-full bg-[#ffffff51]  overflow-hidden"
+          >
+            <img
+              className=" absolute top-[-86px] left-[38px] "
+              src={banner2}
+              alt="Antor Karmaker portrait"
+            />
+          </div>
+
+
+
           {/*------------ Left Content */}
           <div  className="flex flex-col">
            <p className="text-[18px] font-medium font-main text-[#ffffff93]"> Hi, I am</p>
@@ -73,7 +88,7 @@ const Banner = () => {
           {/* Right Image */}
           <div
          
-            className="w-[450px] h-[450px]  relative rounded-full bg-[#ffffff51]  overflow-hidden"
+            className=" lg:w-[450px] lg:h-[450px] w-[200px] h-[200px] hidden lg:block  relative rounded-full bg-[#ffffff51]  overflow-hidden"
           >
             <img
               className=" absolute top-[-86px] left-[38px] "

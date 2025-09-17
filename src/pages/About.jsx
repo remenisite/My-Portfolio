@@ -61,13 +61,12 @@ const About = () => {
             <div class="wrap">
               <div class="animated-bar"></div>
             </div>
-            {/* ---------------- cross button */}
-            <div className=" absolute top-4 right-4 lg:top-[30px] lg:right-[60px]">
+              {/* ---------------- cross button */}
+            <div className="fixed top-4 right-4 lg:absolute lg:top-[30px] lg:right-[60px] z-50">
               <Link to={"/"}>
                 <RxCross1 className="text-[30px] text-white" />
               </Link>{" "}
             </div>
-
             <div>
               {/* ---------- images part */}
               <div className=" lg:flex mx-auto lg:mx-0 justify-center gap-[100px] items-center mt-[50px]  lg:mt-[180px]">

@@ -38,8 +38,12 @@ return (
     <div id="portfolio-row" className="">
     {/* <!--   Start Code --> */}
     <div className="wrap"> <div className="animated-bar"></div>  </div>
-      {/* ---------------- cross button */}
-      <div className='absolute top-[30px] right-[60px] max-sm:top-[15px] max-sm:right-[15px]'>  <Link to={'/'}> <RxCross1 className='text-[30px] text-white max-sm:text-[22px]' />  </Link>  </div>
+        {/* ---------------- cross button */}
+            <div className="fixed top-4 right-4 lg:absolute lg:top-[30px] lg:right-[60px] z-50">
+              <Link to={"/"}>
+                <RxCross1 className="text-[30px] text-white" />
+              </Link>{" "}
+            </div>
 
 {/* ----------- list items */}
       <div className="lg:mt-[100px] mt-[40px]">

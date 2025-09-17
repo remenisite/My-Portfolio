@@ -23,12 +23,12 @@ const Contact = () => {
     <div class="animated-bar"></div>
   </div>
         <div id="contact-row" className=" pt-[50px] lg:pt-[150px] lg:flex justify-center">
-          {/* ---------------- cross button */}
-          <div className=" absolute top-4 right-4 lg:top-[30px] lg:right-[60px]">
-            <Link to={"/"}>
-              <RxCross1 className="text-[30px] text-white" />
-            </Link>{" "}
-          </div>
+            {/* ---------------- cross button */}
+            <div className="fixed top-4 right-4 lg:absolute lg:top-[30px] lg:right-[60px] z-50">
+              <Link to={"/"}>
+                <RxCross1 className="text-[30px] text-white" />
+              </Link>{" "}
+            </div>
           {/*------------- Contact Form */}
           <div   className="w-full max-w-[900px] mx-auto px-2 sm:px-4 md:px-8">
             <h2  className="text-[22px] sm:text-[24px] font-medium font-main text-[#F0F0F0]">

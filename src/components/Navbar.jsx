@@ -76,7 +76,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="/about"
-                    className="text-[15px] font-normal font-main text-[#E6E6E6]"
+                    className="text-[20px] font-normal font-main text-[#E6E6E6]"
                   >
                     About
                   </Link>
@@ -84,7 +84,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="/portfolio"
-                    className="text-[15px] font-normal font-main text-[#E6E6E6]"
+                    className="text-[20px] font-normal font-main text-[#E6E6E6]"
                   >
                     Portfolio
                   </Link>
@@ -92,7 +92,7 @@ const Navbar = () => {
                 <li>
                   <Link
                     to="/contact"
-                    className="text-[15px] font-normal font-main text-[#E6E6E6]"
+                    className="text-[20px] font-normal font-main text-[#E6E6E6]"
                   >
                     Contact
                   </Link>

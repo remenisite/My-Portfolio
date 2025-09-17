@@ -1,4 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { PiShoppingCart } from 'react-icons/pi';
+import { RiSearch2Line, RiUserLine } from 'react-icons/ri';
+import { Link } from 'react-router';
 
 const ResNavbar = () => {
       const [showNav, setShownav] = useState(false);
@@ -10,24 +13,8 @@ const ResNavbar = () => {
         <div className="container">
           <div className="nav_row flex items-center justify-between">
             <Link to={"/"} className="NavIcon w-[24px]">
-              <img src={resNav} alt="logo" />
             </Link>
-            <div className="menu_src w-[200px] h-[36px] rounded-[100px] bg-[#F8F8F8] flex items-center pl-[24px]">
-              <RiSearch2Line
-                onClick={handleSearch}
-                className="text-xl text-primary"
-              />
-              <input
-                onChange={(e) => {
-                  setSearchInput(e.target.value);
-                  handleSearch();
-                }}
-                className="w-full pl-[10px] outline-none border-none text-[12px] font-normal font-poppins"
-                type="text"
-                placeholder="Search in products..."
-                value={searchInput}
-              />
-            </div>
+  
             <button
               onClick={() => setShownav(!showNav)}
               className="NavItem w-[25px] h-[20px] text-primary  relative"
@@ -56,31 +43,7 @@ const ResNavbar = () => {
                showNav ? "right-5 block " : "right-[-100%] hidden "
              }`}
             >
-              <ul className="flex flex-col items-center gap-5 text-[16px] font-poppins font-normal text-white ">
-                <li>
-                  <Link
-                    to="./Login"
-                    className="flex justify-center items-center gap-2"
-                  >
-                    profile <RiUserLine className="text-2xl" />
-                  </Link>
-                </li>
 
-                <li>
-                  <Link
-                    to="./checkout"
-                    className="flex justify-center items-center gap-2"
-                  >
-                    cart <PiShoppingCart className="text-2xl" />
-                    <span
-                      className="w-[20px] h-[20px] rounded-full bg-[#0EA5E9] text-[12px] font-normal font-poppins text-[#fff] flex  justify-center
-           items-center absolute top-[250px] left-[122px]"
-                    >
-                      3
-                    </span>
-                  </Link>
-                </li>
-              </ul>
             </div>
           </div>
         </div>

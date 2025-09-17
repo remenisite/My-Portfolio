@@ -120,7 +120,7 @@ const Banner = () => {
       className="relative overflow-hidden pt-[100px] md:pt-[120px] lg:pt-[150px] min-h-screen bg-[#101010]"
     >
       {/* ----------- icons */}
-      <div className="flex lg:flex-col absolute top-[70%] md:top-[560px] right-4 md:right-[60px] gap-4 z-10">
+      <div className="flex lg:flex-col absolute top-[90%] right-4 lg:top-[65%] lg:right-18  gap-4 z-10">
         <a
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
           href="https://www.facebook.com/antor.web.dev"

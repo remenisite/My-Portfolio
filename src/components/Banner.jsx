@@ -153,7 +153,7 @@ const Banner = () => {
       <div className="container">
         <div id="banner-row" className="flex flex-col-reverse lg:flex-row justify-around items-center px-4 md:px-[20px] lg:px-0 gap-8">
           {/* Mobile Image */}
-          <div className="w-[180px] h-[180px] xs:w-[220px] xs:h-[220px] sm:w-[260px] sm:h-[260px] md:w-[320px] md:h-[320px] lg:hidden relative rounded-full bg-[#ffffff51] overflow-hidden mb-6 md:mb-0">
+          <div className="w-[180px] h-[180px] lg:hidden  relative rounded-full bg-[#ffffff51] overflow-hidden mb-6 md:mb-0">
             <img
               className="absolute top-[-60px] xs:top-[-70px] sm:top-[-80px] md:top-[-86px] left-[18px] xs:left-[28px] sm:left-[34px] md:left-[38px] w-[90%]"
               src={banner2}

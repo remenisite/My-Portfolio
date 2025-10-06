@@ -20,9 +20,7 @@ const Navbar = () => {
           <Link to="/">
             <img className="w-24 h-auto" src={logo} alt="my-logo" />
           </Link>
-   
-          <div>
-         
+          <div>    
             <div className="md:hidden  flex items-center">
               <button
                 className="text-white focus:outline-none"
@@ -73,7 +71,6 @@ const Navbar = () => {
                   </Link>
                 </li>
               </ul>
-       
               <ul
                 className={`${
                   isOpen ? "flex" : "hidden"
@@ -101,8 +98,7 @@ const Navbar = () => {
                   <Link
                     to="/contact"
                     className="text-[15px] font-normal font-main text-[#E6E6E6]"
-                    onClick={() => setIsOpen(false)}
-                  >
+                    onClick={() => setIsOpen(false)} >
                     Contact
                   </Link>
                 </li>

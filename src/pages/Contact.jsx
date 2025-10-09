@@ -98,7 +98,7 @@ const Contact = () => {
                     Name
                   </h3>
                   <p className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                    Ak Antor
+                   Antor web-Dev
                   </p>
                 </div>
               </div>

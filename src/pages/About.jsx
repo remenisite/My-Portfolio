@@ -29,6 +29,7 @@ import fnt20 from "../assets/images/fatch.png";
 import fnt21 from "../assets/images/figma.png";
 import fnt22 from "../assets/images/jsn.png";
 import fnt23 from "../assets/images/npm.png";
+import fnt24 from "../assets/images/wordpress.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { GrOptimize } from "react-icons/gr";
@@ -470,7 +471,7 @@ const About = () => {
                       alt="logo"
                     />
                     <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                    Wordpre
+                    Wordpress
                     </p>
                   </div>
                 </div>

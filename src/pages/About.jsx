@@ -539,23 +539,21 @@ const About = () => {
                     <div>
                       <ul className="flex flex-col gap-[20px]">
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
+                        2-day delivery
+                        </li>
+                        <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
                         1 page
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
                        Design customization
 
                         </li>
-                        <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                        2-day delivery
-                        </li>
-                        <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                        Responsive design
-                        </li>
-                        <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                          24/7 Support
-                        </li>
                              <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
                           Unlimited Revision
+                        </li>
+                
+                        <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
+                          24/7 Support
                         </li>
                       </ul>
                     </div>
@@ -594,10 +592,10 @@ const About = () => {
                       1 page
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                          Database Development
+                   Design customization
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                          Web Design
+                          Unlimited Revision
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
                           24/7 Support

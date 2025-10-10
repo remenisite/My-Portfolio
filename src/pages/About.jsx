@@ -580,7 +580,7 @@ const About = () => {
                         Standard
                       </h3>
                       <h2 className="text-[24px] pt-[10px] font-light font-main text-[#F0F0F0]">
-                        $19/month
+                        $100/month
                       </h2>
                     </div>
                     <div>
@@ -589,7 +589,7 @@ const About = () => {
                         4-day delivery
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                      1 page
+                      4-6 page
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
                    Design customization

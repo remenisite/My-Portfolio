@@ -189,9 +189,7 @@ const About = () => {
                   serLogo={
                     <MdDynamicFeed className="text-5xl text-[#009e66]" />
                   }
-                  serH2={"Building dynamic SPAs"} serP={'ChatGPT বলেছে:
-
-Building Dynamic Single Page Applications (SPAs) involves creating highly interactive, fast-loading web apps that load a single HTML page and dynamically update content via JavaScript — without reloading the entire page.'}
+                  serH2={"Building dynamic SPAs"} serP={'Building Dynamic Single Page Application dynamically update content via JavaScript reloading the entire page.'}
                 />
               </div>
             </div>

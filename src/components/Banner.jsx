@@ -29,6 +29,7 @@ const Banner = () => {
           <FaInstagram />
         </a>
         <a
+        target="_black"
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
           href="https://www.linkedin.com/in/antor94/"
           aria-label="LinkedIn"
@@ -36,6 +37,7 @@ const Banner = () => {
           <FaLinkedinIn />
         </a>
         <a
+        target="_black"
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
           href="https://github.com/antor94"
           aria-label="Github"

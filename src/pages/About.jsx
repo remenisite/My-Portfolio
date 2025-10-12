@@ -167,11 +167,11 @@ const About = () => {
               <div className="w-[1450px] flex flex-wrap justify-center items-center  gap-[30px] max-w-full max-lg:mt-[50px] max-md:w-full">
                 <ServiceCommon
                   serLogo={<MdOutlineWeb className="text-5xl text-[#009e66]" />}
-                  serH2={"Responsive Web Design"}
+                  serH2={"Responsive Web Design"} serP={'Instead of using fixed-width responsive design uses relative according to the screen size.'}
                 />
                 <ServiceCommon
                   serLogo={<FaFigma className="text-5xl text-[#009e66]" />}
-                  serH2={"UI/UX Design Integration"}
+                  serH2={"UI/UX Design Integration"} serP={'UI/UX Design Integration refers to the process of seamlessly functionally effective.'}
                 />
                 <ServiceCommon
                   serLogo={<GrOptimize className="text-5xl text-[#009e66]" />}

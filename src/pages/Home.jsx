@@ -9,12 +9,13 @@ import Banner from "../components/Banner";
 
 const Home = () => {
   return (
-    <>
+    <div className=" max-h-screen">
+    
       <Navbar />
       <Banner />
 
 
-    </>
+    </div>
   );
 };
 

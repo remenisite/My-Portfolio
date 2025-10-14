@@ -533,7 +533,7 @@ const About = () => {
                         Basic
                       </h3>
                       <h2 className="text-[24px] pt-[10px] font-light font-main text-[#F0F0F0]">
-                        $25/month
+                        $25
                       </h2>
                     </div>
                     <div>

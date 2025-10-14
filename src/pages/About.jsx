@@ -580,7 +580,7 @@ const About = () => {
                         Standard
                       </h3>
                       <h2 className="text-[24px] pt-[10px] font-light font-main text-[#F0F0F0]">
-                        $100/month
+                        $100
                       </h2>
                     </div>
                     <div>
@@ -630,7 +630,7 @@ const About = () => {
                         Premium
                       </h3>
                       <h2 className="text-[24px] pt-[10px] font-light font-main text-[#F0F0F0]">
-                        $200/month
+                        $200
                       </h2>
                     </div>
                     <div>

@@ -146,11 +146,9 @@ return (
     <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
       <Link to={'/'} >View</Link>
     </div>
-
   </div>
   <div data-aos="fade-left" className="w-[400px] h-[350px] overflow-hidden max-md:w-full max-md:h-[220px]"><img src={ld1} alt="portfolio img" className="w-full h-full object-cover" /></div>
 </div>
-
   <div className="flex gap-[40px] justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
   <div data-aos="fade-right"
      data-aos-offset="300"
@@ -165,26 +163,19 @@ return (
     <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
       <Link to={'/'} >View</Link>
     </div>
-
   </div>
 </div>
-
-
   <div className="flex gap-[40px] my-[50px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
   <div  data-aos="fade-right" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
     <h2 className="text-[21px] font-medium font-main text-[#fff]">Landing silicon</h2>
     <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
     <p className="text-[16px] font-normal font-main text-[#9F9F9F]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, doloremque aperiam placeat vitae ab suscipit labore consectetur natus soluta hic quo, nesciunt saepe praesentium corporis doloribus adipisci commodi harum?</p> </div>
-
     <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
       <Link to={'/'} >View</Link>
     </div>
-
   </div>
   <div data-aos="fade-left" className="w-[400px] h-[350px] overflow-hidden max-md:w-full max-md:h-[220px]"><img src={ld3} alt="portfolio img" className="w-full h-full object-cover" /></div>
 </div>
-
-
   <div className="flex gap-[40px]  justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
   <div data-aos="fade-right"
      data-aos-offset="300"
@@ -214,12 +205,9 @@ return (
     <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
       <Link to={'/'} >View</Link>
     </div>
-
   </div>
   <div data-aos="zoom-in-right" className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"><img src={todo} alt="portfolio img" className="w-full h-full object-cover" /></div>
 </div>
-
-
   <div className="flex gap-[40px] justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
   <div  data-aos="fade-right" className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"><img src={multi} alt="portfolio img" className="w-full h-full object-cover" /></div>
   <div  data-aos="fade-left" className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]">
@@ -230,7 +218,6 @@ return (
     <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
       <Link to={'/'} >View</Link>
     </div>
-
   </div>
 </div>
 

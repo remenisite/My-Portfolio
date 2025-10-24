@@ -475,7 +475,7 @@ const About = () => {
                   </div>
                   <div data-aos="flip-down" className="text-center ">
                     <img
-                      className="w-[50px] text-center"
+                      className="w-[60px] text-center"
                       src={fnt24}
                       alt="logo"
                     />
@@ -485,7 +485,7 @@ const About = () => {
                   </div>
                   <div data-aos="flip-down" className=" text-center flex justify-center flex-col">
                     <img
-                      className="w-[50px] text-center"
+                      className="w-[60px] text-center"
                       src={fnt25}
                       alt="logo"
                     />

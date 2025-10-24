@@ -580,7 +580,7 @@ const About = () => {
                         Standard
                       </h3>
                       <h2 className="text-[24px] pt-[10px] font-light font-main text-[#F0F0F0]">
-                        $100
+                        $80
                       </h2>
                     </div>
                     <div>

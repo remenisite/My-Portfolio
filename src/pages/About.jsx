@@ -30,6 +30,7 @@ import fnt21 from "../assets/images/figma.png";
 import fnt22 from "../assets/images/jsn.png";
 import fnt23 from "../assets/images/npm.png";
 import fnt24 from "../assets/images/wordpress.png";
+import fnt25 from "../assets/images/elementor.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { GrOptimize } from "react-icons/gr";
@@ -167,29 +168,47 @@ const About = () => {
               <div className="w-[1450px] flex flex-wrap justify-center items-center  gap-[30px] max-w-full max-lg:mt-[50px] max-md:w-full">
                 <ServiceCommon
                   serLogo={<MdOutlineWeb className="text-5xl text-[#009e66]" />}
-                  serH2={"Responsive Web Design"} serP={'Instead of using fixed-width responsive design uses relative according to the screen size.'}
+                  serH2={"Responsive Web Design"}
+                  serP={
+                    "Instead of using fixed-width responsive design uses relative according to the screen size."
+                  }
                 />
                 <ServiceCommon
                   serLogo={<FaFigma className="text-5xl text-[#009e66]" />}
-                  serH2={"UI/UX Design Integration"} serP={'UI/UX Design Integration refers to the process of seamlessly functionally effective.'}
+                  serH2={"UI/UX Design Integration"}
+                  serP={
+                    "UI/UX Design Integration refers to the process of seamlessly functionally effective."
+                  }
                 />
                 <ServiceCommon
                   serLogo={<GrOptimize className="text-5xl text-[#009e66]" />}
-                  serH2={"Frontend Optimization"} serP={'Frontend Optimization is the process of , improve responsiveness, and deliver a smooth user experience.'}
+                  serH2={"Frontend Optimization"}
+                  serP={
+                    "Frontend Optimization is the process of , improve responsiveness, and deliver a smooth user experience."
+                  }
                 />
                 <ServiceCommon
                   serLogo={<MdOutlineWeb className="text-5xl text-[#009e66]" />}
-                  serH2={"API Integration"} serP={'API Integration is the process of connecting your authentication services, or third-party apps.'}
+                  serH2={"API Integration"}
+                  serP={
+                    "API Integration is the process of connecting your authentication services, or third-party apps."
+                  }
                 />
                 <ServiceCommon
                   serLogo={<GoBrowser className="text-5xl text-[#009e66]" />}
-                  serH2={"Cross-Browser Compatibility"} serP={'Cross-Browser Compatibility refers to the ability of a website or  and operating systems.'}
+                  serH2={"Cross-Browser Compatibility"}
+                  serP={
+                    "Cross-Browser Compatibility refers to the ability of a website or  and operating systems."
+                  }
                 />
                 <ServiceCommon
                   serLogo={
                     <MdDynamicFeed className="text-5xl text-[#009e66]" />
                   }
-                  serH2={"Building dynamic SPAs"} serP={'Building Dynamic Single Page Application dynamically update content via JavaScript reloading the entire page.'}
+                  serH2={"Building dynamic SPAs"}
+                  serP={
+                    "Building Dynamic Single Page Application dynamically update content via JavaScript reloading the entire page."
+                  }
                 />
               </div>
             </div>
@@ -202,7 +221,6 @@ const About = () => {
                 commonh2={" My Skills"}
               />
             </div>
-
 
             {/* --------------- skill part */}
 
@@ -467,24 +485,24 @@ const About = () => {
                       Npm Packages
                     </p>
                   </div>
-                                    <div data-aos="flip-down" className="text-center ">
+                  <div data-aos="flip-down" className="text-center ">
                     <img
                       className="w-[50px] text-center"
                       src={fnt24}
                       alt="logo"
                     />
                     <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                    Wordpress
+                      Wordpress
                     </p>
                   </div>
-                                          <div data-aos="flip-down" className="text-center ">
+                  <div data-aos="flip-down" className="text-center ">
                     <img
                       className="w-[50px] text-center"
-                      src={fnt24}
+                      src={fnt25}
                       alt="logo"
                     />
                     <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                   Elementor
+                      Elementor
                     </p>
                   </div>
                 </div>
@@ -549,19 +567,18 @@ const About = () => {
                     <div>
                       <ul className="flex flex-col gap-[20px]">
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                        2-day delivery
+                          2-day delivery
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                        1 page
+                          1 page
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                       Design customization
-
+                          Design customization
                         </li>
-                             <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
+                        <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
                           Unlimited Revision
                         </li>
-                
+
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
                           24/7 Support
                         </li>
@@ -596,13 +613,13 @@ const About = () => {
                     <div>
                       <ul className="flex flex-col gap-[20px]">
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                        4-day delivery
+                          4-day delivery
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                      4-6 page
+                          4-6 page
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                   Design customization
+                          Design customization
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
                           Unlimited Revision
@@ -646,7 +663,7 @@ const About = () => {
                     <div>
                       <ul className="flex flex-col gap-[20px]">
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
-                         6-day delivery
+                          6-day delivery
                         </li>
                         <li className="text-[14px] font-normal font-main text-[#9F9F9F]">
                           Multiple Page

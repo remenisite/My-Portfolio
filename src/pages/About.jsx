@@ -24,7 +24,6 @@ import fnt15 from "../assets/images/Vite.png";
 import fnt16 from "../assets/images/social.png";
 import fnt17 from "../assets/images/redux.png";
 import fnt18 from "../assets/images/axious.png";
-import fnt19 from "../assets/images/docs.png";
 import fnt20 from "../assets/images/fatch.png";
 import fnt21 from "../assets/images/figma.png";
 import fnt22 from "../assets/images/jsn.png";
@@ -433,17 +432,6 @@ const About = () => {
                   </div>
                   <div data-aos="flip-down" className="text-center ">
                     <img
-                      className="w-[70px] text-center"
-                      src={fnt19}
-                      alt="logo"
-                    />
-                    <p className="text-[15px] pt-[15px] font-normal font-main text-[#9F9F9F]">
-                      Read Docs
-                    </p>
-                  </div>
-
-                  <div data-aos="flip-down" className="text-center ">
-                    <img
                       className="w-[110px] text-center"
                       src={fnt20}
                       alt="logo"
@@ -495,7 +483,7 @@ const About = () => {
                       Wordpress
                     </p>
                   </div>
-                  <div data-aos="flip-down" className="text-center ">
+                  <div data-aos="flip-down" className=" text-center flex justify-center flex-col">
                     <img
                       className="w-[50px] text-center"
                       src={fnt25}

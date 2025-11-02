@@ -1,8 +1,6 @@
 import React, {  useState } from "react";
-import logo from "../assets/images/remeni logo.png";
+import logo from "../../assets/images/remelogo.png";
 import { Link } from "react-router";
-
-import 
 
 
 const Navbar = () => {

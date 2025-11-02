@@ -1,12 +1,21 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import logo from "../assets/images/remeni logo.png";
 import { Link } from "react-router";
-import $ from 'jquery';
+
+import 
+
 
 const Navbar = () => {
 
 
   const [isOpen, setIsOpen] = useState(false);
+
+
+  const toogleMenu = () =>{
+
+    setIsOpen(!isOpen)
+
+  }
 
 
 
@@ -17,10 +26,14 @@ const Navbar = () => {
       <div className="container">
         <div id="navbar-row" className="flex items-center px-[20px] lg:px-0  justify-between">
         
+        {/* ------------ main-logo */}
           <Link to="/">
             <img className="w-24 h-auto" src={logo} alt="my-logo" />
           </Link>
           <div>    
+
+
+            {/* --------------- mobile menubar */}
             <div className="md:hidden  flex items-center">
               <button
                 className="text-white focus:outline-none"
@@ -43,10 +56,13 @@ const Navbar = () => {
                 </svg>
               </button>
             </div>
+
+
+            {/* --------------- navbar-items */}
             <div className="cursor-target">
-            
-              <ul className="hidden md:flex gap-8  items-center">
-                <li>
+              <ul className={`hidden md:flex gap-8  items-center navbar-menu ${isOpen ? "active" : ""}`}>
+                <li> onClick={toogleMenu}
+                  
                   <Link
                     to="/about"
                     className="text-[20px] font-normal font-main text-[#E6E6E6]"
@@ -55,6 +71,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
+                  onClick={toogleMenu}
                   <Link
                     to="/portfolio"
                     className="text-[20px] font-normal font-main text-[#E6E6E6]"
@@ -63,6 +80,7 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
+                  onClick={toogleMenu}
                   <Link
                     to="/contact"
                     className="text-[20px] font-normal font-main text-[#E6E6E6]"
@@ -71,6 +89,8 @@ const Navbar = () => {
                   </Link>
                 </li>
               </ul>
+
+              {/* ------------------ mobile-menu */}
               <ul
                 className={`${
                   isOpen ? "flex" : "hidden"
@@ -78,6 +98,7 @@ const Navbar = () => {
               >
                 <li>
                   <Link
+                  
                     to="/about"
                     className="text-[15px] font-normal font-main text-[#E6E6E6]"
                     onClick={() => setIsOpen(false)}

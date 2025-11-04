@@ -1,5 +1,4 @@
 
-import React, { useEffect, useRef } from "react";
 import banner2 from "../assets/images/MyImages.png";
 import { FaInstagram, FaLinkedinIn,} from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";

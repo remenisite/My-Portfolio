@@ -140,7 +140,7 @@ const Contact = () => {
                     href="EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTISCAEQABhDGIMBGLEDGIAEGIoFMgwIAhAAGEMYgAQYigUyDwgDEAAYQxixAxiABBiKBTIKCAQQABixAxiABDIGCAUQRRg9MgYIBhBFGD0yBggHEEUYPdIBCDEzMjdqMGo3qAIAsAIA"
                     className="text-[14px] hover:text-[#797979] font-normal font-main text-[#9F9F9F]"
                   >
-                    antorremeni@gmail.com
+                    antor.web.bd@gmail.com
                   </a>
                 </div>
               </div>

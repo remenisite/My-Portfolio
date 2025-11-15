@@ -75,7 +75,7 @@ const Banner = () => {
             </div>
           </div>
           {/* Right Image */}
-          <div className="hidden lg:block lg:w-[350px] lg:h-[350px] xl:w-[450px] xl:h-[450px] relative rounded-full bg-[#ffffff51] overflow-hidden">
+          <div className="hidden lg:block lg:w-[350px] lg:h-[350px] xl:w-[450px] xl:h-[450px] relative rounded-full bg-[#ffffffce] overflow-hidden">
             <img
               className="absolute top-[-129px] left-[45px] w-[100%]"
               src={banner2}

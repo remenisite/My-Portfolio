@@ -120,7 +120,7 @@ const About = () => {
                             href=""
                             className="text-[15px] font-normal font-main text-[#9F9F9F]"
                           >
-                            antorremeni@gmail.com
+                            antor.web.bd@gmail.com
                           </a>
                         </div>
                       </div>

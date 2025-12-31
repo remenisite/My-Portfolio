@@ -1,4 +1,11 @@
 import React from "react";
+import ServiceCommon from "../common/ServiceCommon";
+import CommonHead from "../common/CommonHead";
+import { GrOptimize } from "react-icons/gr";
+import { MdDynamicFeed } from "react-icons/md";
+import { GoBrowser } from "react-icons/go";
+import { FaFigma } from "react-icons/fa";
+import { MdOutlineWeb } from "react-icons/md";
 
 const Service = () => {
   return (

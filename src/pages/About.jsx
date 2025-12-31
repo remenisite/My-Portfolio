@@ -4,7 +4,6 @@ import { RxCross1 } from "react-icons/rx";
 import { Link } from "react-router";
 import { SiBasicattentiontoken } from "react-icons/si";
 import ServiceCommon from "../components/common/ServiceCommon";
-import { MdOutlineWeb } from "react-icons/md";
 import fnt1 from "../assets/images/bootstrap.png";
 import fnt2 from "../assets/images/css-3.png";
 import fnt3 from "../assets/images/vercel.png";
@@ -31,11 +30,9 @@ import fnt24 from "../assets/images/wordpress.png";
 import fnt25 from "../assets/images/elementor.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { GrOptimize } from "react-icons/gr";
-import { MdDynamicFeed } from "react-icons/md";
-import { GoBrowser } from "react-icons/go";
-import { FaFigma } from "react-icons/fa";
+
 import Profile from "../components/about/Profile";
+import Service from "../components/about/Service";
 
 const About = () => {
   useEffect(() => {
@@ -66,8 +63,7 @@ const About = () => {
             </div>
 
             <Profile />
-
-            
+            <Service />
 
             {/* ----------- skill part */}
 

@@ -1,5 +1,5 @@
 
-import banner2 from "../assets/images/MyImages.png";
+import banner2 from "../../assets/images/MyImages.png";
 import { FaInstagram, FaLinkedinIn,} from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { TbBrandGithub } from "react-icons/tb";

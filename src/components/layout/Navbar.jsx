@@ -14,7 +14,9 @@ const Navbar = () => {
             className="flex items-center px-[20px] lg:px-0  justify-between"
           >
             {/* ------------ main-logo */}
-            <Link to="/"><img src={myLogo} alt="Brand Logo" width="100" /> </Link>
+            <Link to="/">
+              <img src={myLogo} alt="Brand Logo" width="100" />{" "}
+            </Link>
             <div>
               {/* --------------- mobile menubar */}
               <div className="md:hidden  flex items-center">

@@ -12,7 +12,7 @@ import ServiceCommon from "../components/common/ServiceCommon";
 const Service = () => {
   return (
     <>
-      <section id="services" className="bg-[#101010] min-h-screen relative">
+      <section id="services" className="bg-red-500 min-h-screen relative">
         <div className="container">
           <div className="pt-[70px] text-center">
             <CommonHead

@@ -1,36 +1,33 @@
 import React from 'react'
 
-import fnt1 from "../assets/images/bootstrap.png";
-import fnt2 from "../assets/images/css-3.png";
-import fnt3 from "../assets/images/vercel.png";
-import fnt4 from "../assets/images/twcss.png";
-import fnt5 from "../assets/images/physics.png";
-import fnt6 from "../assets/images/node-js.png";
-import fnt7 from "../assets/images/next.js.png";
-import fnt8 from "../assets/images/git.png";
-import fnt9 from "../assets/images/github.png";
-import fnt10 from "../assets/images/gitlab.png";
-import fnt11 from "../assets/images/html-5.png";
-import fnt12 from "../assets/images/netlify.png";
-import fnt13 from "../assets/images/js.png";
-import fnt14 from "../assets/images/saas.png";
-import fnt15 from "../assets/images/Vite.png";
-import fnt16 from "../assets/images/social.png";
-import fnt17 from "../assets/images/redux.png";
-import fnt18 from "../assets/images/axious.png";
-import fnt20 from "../assets/images/fatch.png";
-import fnt21 from "../assets/images/figma.png";
-import fnt22 from "../assets/images/jsn.png";
-import fnt23 from "../assets/images/npm.png";
-import fnt24 from "../assets/images/wordpress.png";
-import fnt25 from "../assets/images/elementor.png";
+import fnt1 from "../../../assets/images/bootstrap.png";
+import fnt2 from "../../../assets/images/css-3.png";
+import fnt3 from "../../../assets/images/vercel.png";
+import fnt4 from "../../../assets/images/twcss.png";
+import fnt5 from "../../../assets/images/physics.png";
+import fnt6 from "../../../assets/images/node-js.png";
+import fnt7 from "../../../assets/images/next.js.png";
+import fnt8 from "../../../assets/images/git.png";
+import fnt9 from "../../../assets/images/github.png";
+import fnt10 from "../../../assets/images/gitlab.png";
+import fnt11 from "../../../assets/images/html-5.png";
+import fnt12 from "../../../assets/images/netlify.png";
+import fnt13 from "../../../assets/images/js.png";
+import fnt14 from "../../../assets/images/saas.png";
+import fnt15 from "../../../assets/images/Vite.png";
+import fnt16 from "../../../assets/images/social.png";
+import fnt17 from "../../../assets/images/redux.png";
+import fnt18 from "../../../assets/images/axious.png";
+import fnt20 from "../../../assets/images/fatch.png";
+import fnt21 from "../../../assets/images/figma.png";
+import fnt22 from "../../../assets/images/jsn.png";
+import fnt23 from "../../../assets/images/npm.png";
+import fnt24 from "../../../assets/images/wordpress.png";
+import fnt25 from "../../../assets/images/elementor.png";
 
 const Frontend = () => {
   return (
     <>
-    
-
-      {/* ---------------- frontend skill */}
                 <div className=" w-[500px]  ">
                   <div
                     data-aos="fade-right"

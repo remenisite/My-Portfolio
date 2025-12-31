@@ -7,6 +7,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Profile from "../components/about/Profile";
 import Service from "../components/about/Service";
+import Frontend from "../components/about/skill/Frontend";
 
 const About = () => {
   useEffect(() => {
@@ -59,6 +60,7 @@ const About = () => {
                   Backend Development
                 </h2>
               </div>
+              <Frontend />
 
               <div className="flex justify-center gap-[100px]">
                 {/* ---------------- backend skill */}

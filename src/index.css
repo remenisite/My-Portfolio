@@ -3,7 +3,9 @@
 
 @utility container {  margin-inline: auto; }
 
-
+.container{
+  width: 1400px;
+}
 
 /* ------------- variable */
 @theme{

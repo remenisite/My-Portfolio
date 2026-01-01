@@ -1,4 +1,7 @@
 import React from "react";
+import CommonHead from "../common/CommonHead";
+import { SiBasicattentiontoken } from "react-icons/si";
+
 
 const CustomPlan = () => {
   return (

@@ -2,13 +2,13 @@ import React, { useEffect } from "react";
 import CommonHead from "../components/common/CommonHead";
 import { RxCross1 } from "react-icons/rx";
 import { Link } from "react-router";
-import { SiBasicattentiontoken } from "react-icons/si";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Profile from "../components/about/Profile";
 import Service from "../components/about/Service";
 import Frontend from "../components/about/skill/Frontend";
 import Backend from "../components/about/skill/Backend";
+import CustomPlan from "../components/about/CustomPlan";
 
 const About = () => {
   useEffect(() => {
@@ -65,6 +65,10 @@ const About = () => {
               <Backend />
 
             </div>
+
+            {/* --------------------- plan ------------------ */}
+
+            <CustomPlan />
         
           </div>
         </div>

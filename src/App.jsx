@@ -1,32 +1,36 @@
-import React from 'react'
-import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router'
-import LayoutOne from './layout/LayoutOne'
-import Home from './pages/Home'
-import About from './pages/About'
-import './App.css'
-import Contact from './pages/Contact'
-import Portfolio from './pages/Portfolio'
-
+import React from "react";
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router";
+import LayoutOne from "./layout/LayoutOne";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import "./App.css";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
 
 const App = () => {
-
-
-  const myRoute = createBrowserRouter(createRoutesFromElements(
-    <Route >
-      <Route path='/' element={<LayoutOne />}>
-      <Route index element={<Home />} ></Route>
-      <Route path='/about' element={<About />} ></Route>
-      <Route path='/contact' element={<Contact />} ></Route>
-      <Route path='/portfolio' element={<Portfolio />} ></Route>
+  const myRoute = createBrowserRouter(
+    createRoutesFromElements(
+      <Route>
+        <Route path="/" element={<LayoutOne />}>
+          <Route index element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/portfolio" element={<Portfolio />}></Route>
+        </Route>
       </Route>
-    </Route>
-  ))
+    )
+  );
 
   return (
     <>
-    <RouterProvider router={myRoute} />
+      <RouterProvider router={myRoute} />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

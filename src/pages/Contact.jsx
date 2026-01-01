@@ -1,12 +1,6 @@
 import React from "react";
 import CommonHead from "../components/common/CommonHead";
 import { Link } from "react-router";
-import {
-  FaFacebook,
-  FaTelegram,
-  FaTwitterSquare,
-  FaYoutube,
-} from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
 import { FaUserCircle } from "react-icons/fa";
 import { FaMapLocationDot } from "react-icons/fa6";
@@ -74,6 +68,8 @@ const Contact = () => {
               </form>
             </div>
           </div>
+
+          
           {/*------------------- Contact Info */}
           <div className="w-full max-w-[500px] mx-auto mt-[100px] pb-[50px] lg:mt-0 px-2 ">
             <h2 className="text-[22px] sm:text-[24px] font-medium font-main text-[#F0F0F0]">

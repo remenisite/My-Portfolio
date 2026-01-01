@@ -6,7 +6,7 @@ import About from './pages/About'
 import './App.css'
 import Contact from './pages/Contact'
 import Portfolio from './pages/Portfolio'
-import Service from './pages/Service'
+
 
 const App = () => {
 
@@ -18,7 +18,6 @@ const App = () => {
       <Route path='/about' element={<About />} ></Route>
       <Route path='/contact' element={<Contact />} ></Route>
       <Route path='/portfolio' element={<Portfolio />} ></Route>
-      <Route path='/service' element={<Service />} ></Route>
       </Route>
     </Route>
   ))

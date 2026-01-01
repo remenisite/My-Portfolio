@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 import Profile from "../components/about/Profile";
 import Service from "../components/about/Service";
 import Frontend from "../components/about/skill/Frontend";
+import Backend from "../components/about/skill/Backend";
 
 const About = () => {
   useEffect(() => {
@@ -61,10 +62,8 @@ const About = () => {
                 </h2>
               </div>
               <Frontend />
+              <Backend />
 
-              <div className="flex justify-center gap-[100px]">
-               
-              </div>
             </div>
             {/* ------------- service-part */}
             <div

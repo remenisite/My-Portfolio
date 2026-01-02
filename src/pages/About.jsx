@@ -14,7 +14,7 @@ const About = () => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: true
+      once: true,
     });
   }, []);
 
@@ -63,13 +63,11 @@ const About = () => {
               </div>
               <Frontend />
               <Backend />
-
             </div>
 
             {/* --------------------- plan ------------------ */}
 
             <CustomPlan />
-        
           </div>
         </div>
       </section>

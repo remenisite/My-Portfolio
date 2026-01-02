@@ -1,5 +1,5 @@
 /* ------------------ popins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 /* width */
 ::-webkit-scrollbar {
@@ -11,69 +11,66 @@
   background: #101010;
 }
 
-
-body, html {
+body,
+html {
   overflow-x: hidden;
 }
 
+.wrap {
+  width: 60%;
 
-.wrap{
-  width:60%;
-  
-padding-left: 731px;
-    padding-top: 30px;
-    
+  padding-left: 558px;
+  padding-top: 30px;
 }
 .animated-bar {
-    height: 4px;
-    width: 75px;
-    background:#009e66;
-    position: relative;
+  height: 4px;
+  width: 75px;
+  background: #009e66;
+  position: relative;
 }
 
 .animated-bar::after {
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0;
-    width: 6px;
-    height: 4px;
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 6px;
+  height: 4px;
 
-    background: black;
-    -webkit-animation-name: habibur;
-            animation-name: habibur;
-    -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-    -webkit-animation-timing-function: linear;
-            animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
-            animation-iteration-count: infinite;
+  background: black;
+  -webkit-animation-name: habibur;
+  animation-name: habibur;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes habibur {
-    from {
-        -webkit-transform: translateX(0);
-                transform: translateX(0);
-    }
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
 
-    to {
-        -webkit-transform: translateX(75px);
-                transform: translateX(75px)
-    }
+  to {
+    -webkit-transform: translateX(75px);
+    transform: translateX(75px);
+  }
 }
 
 @keyframes habibur {
-    from {
-        -webkit-transform: translateX(0);
-                transform: translateX(0);
-    }
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
 
-    to {
-        -webkit-transform: translateX(75px);
-                transform: translateX(75px)
-    }
+  to {
+    -webkit-transform: translateX(75px);
+    transform: translateX(75px);
+  }
 }
-
 
 .card {
   /* color used to softly clip top and bottom of the .words container */
@@ -163,7 +160,6 @@ padding-left: 731px;
   }
 }
 
-
 /* Custom */
 
 h1 {
@@ -195,7 +191,3 @@ h1 {
     border-color: transparent;
   }
 }
-
-
-
-

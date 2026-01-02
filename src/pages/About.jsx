@@ -61,8 +61,11 @@ const About = () => {
                   Backend Development
                 </h2>
               </div>
+              <div className="flex justify-between">
+
               <Frontend />
               <Backend />
+              </div>
             </div>
 
             {/* --------------------- plan ------------------ */}

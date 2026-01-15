@@ -1,6 +1,5 @@
-
-import banner2 from "../../assets/images/MyImages.png";
-import { FaInstagram, FaLinkedinIn,} from "react-icons/fa";
+import banner2 from "../../assets/images/my-images3-removebg-preview.png";
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { TbBrandGithub } from "react-icons/tb";
 
@@ -8,11 +7,12 @@ const Banner = () => {
   return (
     <section
       id="banner"
-      className="relative overflow-hidden pt-[90px] lg:pt-[150px] min-h-screen bg-[#101010]">
+      className="relative overflow-hidden pt-[90px] lg:pt-[150px] min-h-screen bg-[#101010]"
+    >
       {/* ----------- icons */}
       <div className="flex lg:flex-col absolute top-[92%] right-4 lg:top-[65%] lg:right-18  gap-4 z-10">
         <a
-        target="_black"
+          target="_black"
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
           href="https://www.facebook.com/remenisite"
           aria-label="Facebook"
@@ -20,7 +20,7 @@ const Banner = () => {
           <FaFacebookF />
         </a>
         <a
-        target="_black"
+          target="_black"
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
           href="https://www.instagram.com/remenisite/"
           aria-label="Instagram"
@@ -28,7 +28,7 @@ const Banner = () => {
           <FaInstagram />
         </a>
         <a
-        target="_black"
+          target="_black"
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
           href="https://www.linkedin.com/in/remenisite/"
           aria-label="LinkedIn"
@@ -36,7 +36,7 @@ const Banner = () => {
           <FaLinkedinIn />
         </a>
         <a
-        target="_black"
+          target="_black"
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
           href="https://github.com/remenisite"
           aria-label="Github"
@@ -45,7 +45,10 @@ const Banner = () => {
         </a>
       </div>
       <div className="container">
-        <div id="banner-row" className="flex flex-col-reverse lg:flex-row justify-evenly items-center  px-4 gap-[30px] lg:gap-0">
+        <div
+          id="banner-row"
+          className="flex flex-col-reverse lg:flex-row justify-evenly items-center  px-4 gap-[30px] lg:gap-0"
+        >
           {/* Mobile Image */}
           <div className="w-[300px] h-[300px] lg:hidden  relative rounded-full bg-[#ffffff51] overflow-hidden mb-6 md:mb-0">
             <img
@@ -56,14 +59,21 @@ const Banner = () => {
           </div>
           {/*------------ Left Content */}
           <div className="flex flex-col   items-center lg:items-start text-center lg:text-left w-full max-w-xl">
-            <p className="text-[16px] md:text-[18px] font-medium font-main text-[#ffffff93]">Hi, I am</p>
+            <p className="text-[16px] md:text-[18px] font-medium font-main text-[#ffffff93]">
+              Hi, I am
+            </p>
             <div>
-              <h1 className="type text-[22px] sm:text-[26px] md:text-[32px] lg:text-[60px] font-bold">Antor Karmoker</h1>
+              <h1 className="type text-[22px] sm:text-[26px] md:text-[32px] lg:text-[60px] font-bold">
+                Antor Karmoker
+              </h1>
             </div>
             {/* ----------- card loading */}
             <div className="card ">
               <div className="loader flex flex-col md:flex-row items-center md:items-end">
-                <p className="text-[14px] md:text-[18px] lg:text-[32px] font-normal font-main text-[#f0f0f0] ">    I'm a  </p>
+                <p className="text-[14px] md:text-[18px] lg:text-[32px] font-normal font-main text-[#f0f0f0] ">
+                  {" "}
+                  I'm a{" "}
+                </p>
                 <div className="words  lg:pb-[12px] lg:h-[40px]">
                   <span className="word">React Developer</span>
                   <span className="word">Frontend Developer</span>
@@ -77,7 +87,7 @@ const Banner = () => {
           {/* Right Image */}
           <div className="hidden lg:block lg:w-[350px] lg:h-[350px] xl:w-[450px] xl:h-[450px] relative rounded-full bg-[#ffffffce] overflow-hidden">
             <img
-              className="absolute top-[-129px] left-[45px] w-[100%]"
+              className=" w-[100%]"
               src={banner2}
               alt="Antor Karmaker portrait"
             />

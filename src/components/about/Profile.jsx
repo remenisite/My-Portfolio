@@ -1,4 +1,5 @@
 import React from "react";
+import profileImg from '../../assets/images/MyImages.png'
 
 const Profile = () => {
   return (
@@ -10,7 +11,7 @@ const Profile = () => {
         <div className="w-[400px] h-[400px]  relative bg-white rounded-[8px]">
           <img
             className="w-[600px] h-[418px] absolute top-[-18px] left-0 "
-            src={""}
+            src={profileImg}
             alt="about-img"
           />
         </div>

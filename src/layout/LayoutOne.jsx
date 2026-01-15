@@ -1,21 +1,12 @@
-import React from 'react'
-import { Outlet } from 'react-router'
-
+import React from "react";
+import { Outlet } from "react-router";
 
 const LayoutOne = () => {
   return (
     <div>
-
-
-        <Outlet />
-
-
-
-
-
-
+      <Outlet />
     </div>
-  )
-}
+  );
+};
 
-export default LayoutOne
+export default LayoutOne;

@@ -75,11 +75,14 @@ const Banner = () => {
                   I'm a{" "}
                 </p>
                 <div className="words  lg:pb-[12px] lg:h-[40px]">
-                  <span className="word">React Developer</span>
+                  <span className="word">Backend Developer</span>
+                  <span className="word">Javascript Developer</span>
+                  <span className="word">Full Stack Developer</span>
                   <span className="word">Frontend Developer</span>
-                  <span className="word">jr. Frontend Developer</span>
+                  <span className="word">Backend Developer</span>
                   <span className="word">React Expert</span>
-                  <span className="word">Javascript Expert</span>
+                  <span className="word">Node.js Expert</span>
+                  {/* <span className="word">Javascript Expert</span> */}
                 </div>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import profileImg from '../../assets/images/MyImages.png'
+import profileImg from "../../assets/images/MyImages.png";
 
 const Profile = () => {
   return (
@@ -24,17 +24,16 @@ const Profile = () => {
             </p>
             <div className=" text-center lg:text-start  lg:w-[690px] my-[20px]">
               <h2 className="text-[31px]  font-bold font-main text-[#F0F0F0]">
-                I'm Antor, a Frontend Web Developer
+                I'm Antor, a Javascript Developer
               </h2>
             </div>
             <div className=" mx-[20px] lg:mx-0 lg:w-[667px] border-b border-[#9f9f9f22] pb-[40px]">
               <p className="text-[15px] font-normal font-main text-[#9F9F9F]">
-                Currently honing my skills at Creative IT Institute. I
-                specialize in building dynamic and responsive front end
-                applications using React, JavaScript, HTML, and CSS. I also have
-                hands-on experience with Git/GitHub and UI design tools lFigma
-                and Adobe.My focus is on writing clean, maintainable code and
-                crafting seamless user experiences.
+                JavaScript Development focuses on building fast, dynamic, and
+                interactive web applications that deliver an excellent user
+                experience across all devices. JavaScript is one of the most
+                powerful and widely used programming languages for modern web
+                development, enabling both frontend and backend solutions.{" "}
               </p>
             </div>
           </div>
@@ -47,7 +46,7 @@ const Profile = () => {
                     Name:
                   </h3>
                   <p className="text-[15px] font-normal font-main text-[#9F9F9F]">
-                    Antor-Web_Dev
+                    Antor Web Dev
                   </p>
                 </div>
                 <div className="pt-[30px] lg:pt-0 flex  gap-[10px]">

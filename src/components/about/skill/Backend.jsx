@@ -20,44 +20,29 @@ const Backend = () => {
       <div className="w-[500px] mt-[400px] lg:mt-[50px]   gap-[30px] ">
         <div
           data-aos="fade-left"
-          className=" flex justify-center items-center gap-[30px] p-[30px] bg-[#161616]"
+          className=" flex  items-center gap-[30px] p-[30px] bg-[#161616]"
         >
-          <div data-aos="flip-down" className="text-center ">
-            <img className="w-[50px] text-center" src={_back1} alt="logo" />
-          </div>
-          <div data-aos="flip-down" className="text-center ">
-            <img className="w-[50px] text-center" src={_back2} alt="logo" />
-          </div>
-          <div data-aos="flip-down" className="text-center ">
-            <img className="w-[50px] text-center" src={_back3} alt="logo" />
-          </div>
-          <div data-aos="flip-down" className="text-center ">
-            <img className="w-[50px] text-center" src={_back4} alt="logo" />
-          </div>
-          <div data-aos="flip-down" className="text-center ">
-            <img className="w-[50px] text-center" src={_back5} alt="logo" />
-          </div>
-          <div data-aos="flip-down" className="text-center ">
-            <img className="w-[50px] text-center" src={_back6} alt="logo" />
-          </div>
-          <div data-aos="flip-down" className="text-center ">
-            <img className="w-[50px] text-center" src={_back7} alt="logo" />
-          </div>
-          <div data-aos="flip-down" className="text-center ">
-            <img className="w-[50px] text-center" src={_back8} alt="logo" />
-          </div>
-          <div data-aos="flip-down" className="text-center ">
-            <img className="w-[50px] text-center" src={_back9} alt="logo" />
-          </div>
-          <div data-aos="flip-down" className="text-center ">
-            <img className="w-[50px] text-center" src={_back9} alt="logo" />
-          </div>
-          <div data-aos="flip-down" className="text-center ">
-            <img className="w-[50px] text-center" src={_back10} alt="logo" />
-          </div>
-          <div data-aos="flip-down" className="text-center ">
-            <img className="w-[50px] text-center" src={_back11} alt="logo" />
-          </div>
+   
+            <div data-aos="flip-down" className=" ">
+              <img className="w-[50px] text-center" src={_back1} alt="logo" />
+            </div>
+            <div data-aos="flip-down" className=" ">
+              <img className="w-[50px] text-center" src={_back2} alt="logo" />
+            </div>
+            <div data-aos="flip-down" className=" ">
+              <img className="w-[50px] text-center" src={_back3} alt="logo" />
+            </div>
+            <div data-aos="flip-down" className=" ">
+              <img className="w-[50px] text-center" src={_back4} alt="logo" />
+            </div>
+            <div data-aos="flip-down" className=" ">
+              <img className="w-[50px] text-center" src={_back5} alt="logo" />
+            </div>
+        
+         
+
+
+
         </div>
       </div>
     </>

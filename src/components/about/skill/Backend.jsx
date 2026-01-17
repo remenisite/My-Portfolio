@@ -5,6 +5,13 @@ import _back2 from "../../../assets/images/back2.png";
 import _back3 from "../../../assets/images/back3.png";
 import _back4 from "../../../assets/images/back4.png";
 import _back5 from "../../../assets/images/back5.png";
+import _back6 from "../../../assets/images/back6.png";
+import _back7 from "../../../assets/images/back7.png";
+import _back8 from "../../../assets/images/back8.png";
+import _back9 from "../../../assets/images/back9.png";
+import _back10 from "../../../assets/images/back10.png";
+import _back11 from "../../../assets/images/back11.png";
+import _back12 from "../../../assets/images/back12.png";
 
 const Backend = () => {
   return (
@@ -30,8 +37,27 @@ const Backend = () => {
           <div data-aos="flip-down" className="text-center ">
             <img className="w-[50px] text-center" src={_back5} alt="logo" />
           </div>
-
-
+          <div data-aos="flip-down" className="text-center ">
+            <img className="w-[50px] text-center" src={_back6} alt="logo" />
+          </div>
+          <div data-aos="flip-down" className="text-center ">
+            <img className="w-[50px] text-center" src={_back7} alt="logo" />
+          </div>
+          <div data-aos="flip-down" className="text-center ">
+            <img className="w-[50px] text-center" src={_back8} alt="logo" />
+          </div>
+          <div data-aos="flip-down" className="text-center ">
+            <img className="w-[50px] text-center" src={_back9} alt="logo" />
+          </div>
+          <div data-aos="flip-down" className="text-center ">
+            <img className="w-[50px] text-center" src={_back9} alt="logo" />
+          </div>
+          <div data-aos="flip-down" className="text-center ">
+            <img className="w-[50px] text-center" src={_back10} alt="logo" />
+          </div>
+          <div data-aos="flip-down" className="text-center ">
+            <img className="w-[50px] text-center" src={_back11} alt="logo" />
+          </div>
         </div>
       </div>
     </>

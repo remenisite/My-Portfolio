@@ -52,7 +52,7 @@ const Backend = () => {
 
     <div className=" w-[500px]  ">
         <div
-          data-aos="fade-right"
+          data-aos="fade-left"
           className="flex mt-[50px] p-[30px] flex-wrap justify-center gap-[30px] bg-[#161616]"
         >
           <div data-aos="flip-down" className="text-center ">

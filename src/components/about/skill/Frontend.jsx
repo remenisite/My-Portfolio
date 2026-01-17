@@ -21,7 +21,7 @@ import fnt18 from "../../../assets/images/axious.png";
 import fnt20 from "../../../assets/images/fatch.png";
 import fnt21 from "../../../assets/images/figma.png";
 import fnt22 from "../../../assets/images/jsn.png";
-import fnt23 from "../../../assets/images/npm.png";
+import fnt23 from "../../../assets/images/back8.png";
 import fnt24 from "../../../assets/images/wordpress.png";
 import fnt25 from "../../../assets/images/elementor.png";
 

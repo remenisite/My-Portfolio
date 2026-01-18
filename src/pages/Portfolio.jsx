@@ -69,7 +69,7 @@ const Portfolio = () => {
                   onClick={() => setActiveTab(3)}
                 >
                   <a href="#messages" className="text-white">
-                    E-commerce (multiple page)
+                    Frontend 
                   </a>
                 </li>
                 <li
@@ -81,7 +81,7 @@ const Portfolio = () => {
                 >
                   <a href="#home" className="text-white">
                     {" "}
-                    Javascript
+                    Backend
                   </a>
                 </li>
                 <li
@@ -92,7 +92,7 @@ const Portfolio = () => {
                   onClick={() => setActiveTab(2)}
                 >
                   <a href="#profile" className="text-white">
-                    Firebase
+                    Full Stack
                   </a>
                 </li>
                 <li
@@ -103,7 +103,7 @@ const Portfolio = () => {
                   onClick={() => setActiveTab(4)}
                 >
                   <a href="#settings" className="text-white">
-                    Landing (single) page
+                    Firebase
                   </a>
                 </li>
               </ul>

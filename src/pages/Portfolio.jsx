@@ -57,6 +57,8 @@ const Portfolio = () => {
 
             {/* Tab Navigation */}
             <div className="mt-[80px]">
+
+              {/* --------------- tab-button */}
               <ul
                 className="nav nav-tabs flex justify-center gap-[15px] mb-[20px] "
                 role="tablist"
@@ -213,42 +215,7 @@ const Portfolio = () => {
                   </div>
                 )}
                 {activeTab === 2 && (
-                  <div id="profile" className="text-white p-[20px]">
-                    {" "}
-                    <div className="flex gap-[40px] justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
-                      <div
-                        data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine"
-                        className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"
-                      >
-                        <img
-                          src={firebase}
-                          alt="portfolio img"
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                      <div
-                        data-aos="fade-left"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine"
-                        className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]"
-                      >
-                        <h2 className="text-[21px] font-medium font-main text-[#fff]">
-                          Firebase-Note
-                        </h2>
-                        <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
-                          <p className="text-[16px] font-normal font-main text-[#9F9F9F]">
-                            This is firebase note app project where user create
-                            delete update there note.{" "}
-                          </p>{" "}
-                        </div>
-                        <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
-                          <Link to={"/"}>View</Link>
-                        </div>
-                      </div>
-                    </div>{" "}
-                  </div>
+                fgbfidsjb
                 )}
                 {activeTab === 3 && (
                   <div id="messages" className="text-white p-[20px]">
@@ -427,49 +394,17 @@ const Portfolio = () => {
                 )}
 
                 {activeTab === 4 && (
-                  <div id="settings" className="text-white p-[20px]">
-                    <div className="flex gap-[40px] my-[50px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
-                      <div
-                        data-aos="fade-right"
-                        className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]"
-                      >
-                        <h2 className="text-[21px] font-medium font-main text-[#fff]">
-                          Landing M-cep
-                        </h2>
-                        <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
-                          <p className="text-[16px] font-normal font-main text-[#9F9F9F]">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Tenetur, doloremque aperiam placeat vitae ab
-                            suscipit labore consectetur natus soluta hic quo,
-                            nesciunt saepe praesentium corporis doloribus
-                            adipisci commodi harum?
-                          </p>{" "}
-                        </div>
-
-                        <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
-                          <Link to={"/"}>View</Link>
-                        </div>
-                      </div>
-                      <div
-                        data-aos="fade-left"
-                        className="w-[400px] h-[350px] overflow-hidden max-md:w-full max-md:h-[220px]"
-                      >
-                        <img
-                          src={ld1}
-                          alt="portfolio img"
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                    </div>
+              <div id="profile" className="text-white p-[20px]">
+                    {" "}
                     <div className="flex gap-[40px] justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
                       <div
                         data-aos="fade-right"
                         data-aos-offset="300"
                         data-aos-easing="ease-in-sine"
-                        className="w-[400px] h-[350px]  overflow-hidden max-md:w-full max-md:h-[220px]"
+                        className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"
                       >
                         <img
-                          src={ld2}
+                          src={firebase}
                           alt="portfolio img"
                           className="w-full h-full object-cover"
                         />
@@ -481,92 +416,19 @@ const Portfolio = () => {
                         className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]"
                       >
                         <h2 className="text-[21px] font-medium font-main text-[#fff]">
-                          Landing Portfolio
+                          Firebase-Note
                         </h2>
                         <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
                           <p className="text-[16px] font-normal font-main text-[#9F9F9F]">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Tenetur, doloremque aperiam placeat vitae ab
-                            suscipit labore consectetur natus soluta hic quo,
-                            nesciunt saepe praesentium corporis doloribus
-                            adipisci commodi harum?
-                          </p>{" "}
-                        </div>
-
-                        <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
-                          <Link to={"/"}>View</Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="flex gap-[40px] my-[50px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
-                      <div
-                        data-aos="fade-right"
-                        className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]"
-                      >
-                        <h2 className="text-[21px] font-medium font-main text-[#fff]">
-                          Landing silicon
-                        </h2>
-                        <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
-                          <p className="text-[16px] font-normal font-main text-[#9F9F9F]">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Tenetur, doloremque aperiam placeat vitae ab
-                            suscipit labore consectetur natus soluta hic quo,
-                            nesciunt saepe praesentium corporis doloribus
-                            adipisci commodi harum?
+                            This is firebase note app project where user create
+                            delete update there note.{" "}
                           </p>{" "}
                         </div>
                         <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
                           <Link to={"/"}>View</Link>
                         </div>
                       </div>
-                      <div
-                        data-aos="fade-left"
-                        className="w-[400px] h-[350px] overflow-hidden max-md:w-full max-md:h-[220px]"
-                      >
-                        <img
-                          src={ld3}
-                          alt="portfolio img"
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                    </div>
-                    <div className="flex gap-[40px]  justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
-                      <div
-                        data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine"
-                        className="w-[400px] h-[350px]  overflow-hidden max-md:w-full max-md:h-[220px]"
-                      >
-                        <img
-                          src={ld4}
-                          alt="portfolio img"
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                      <div
-                        data-aos="fade-left"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine"
-                        className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]"
-                      >
-                        <h2 className="text-[21px] font-medium font-main text-[#fff]">
-                          Landing Mobile App
-                        </h2>
-                        <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
-                          <p className="text-[16px] font-normal font-main text-[#9F9F9F]">
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Tenetur, doloremque aperiam placeat vitae ab
-                            suscipit labore consectetur natus soluta hic quo,
-                            nesciunt saepe praesentium corporis doloribus
-                            adipisci commodi harum?
-                          </p>{" "}
-                        </div>
-
-                        <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
-                          <Link to={"/"}>View</Link>
-                        </div>
-                      </div>
-                    </div>
+                    </div>{" "}
                   </div>
                 )}
               </div>

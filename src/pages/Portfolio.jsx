@@ -53,7 +53,6 @@ const Portfolio = () => {
 
             {/* Tab Navigation */}
             <div className="mt-[80px]">
-
               {/* --------------- tab-button */}
               <ul
                 className="nav nav-tabs flex justify-center gap-[15px] mb-[20px] "
@@ -67,7 +66,7 @@ const Portfolio = () => {
                   onClick={() => setActiveTab(3)}
                 >
                   <a href="#messages" className="text-white">
-                    Frontend 
+                    Frontend
                   </a>
                 </li>
                 <li
@@ -211,37 +210,37 @@ const Portfolio = () => {
                   </div>
                 )}
                 {activeTab === 2 && (
-                   <div className="flex gap-[40px] my-[50px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
-                      <div
-                        data-aos="zoom-in-left"
-                        className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]"
-                      >
-                        <h2 className="text-[21px] font-medium font-main text-[#fff]">
-                          Js-To-do
-                        </h2>
-                        <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
-                          <p className="text-[16px] font-normal font-main text-[#9F9F9F]">
-                            {" "}
-                            I make a to-do list project where user
-                            add,delete,update & chnage his/him to-do.{" "}
-                          </p>{" "}
-                        </div>
-
-                        <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
-                          <Link to={"/"}>View</Link>
-                        </div>
+                  <div className="flex gap-[40px] my-[50px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
+                    <div
+                      data-aos="zoom-in-left"
+                      className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]"
+                    >
+                      <h2 className="text-[21px] font-medium font-main text-[#fff]">
+                        Js-To-do
+                      </h2>
+                      <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
+                        <p className="text-[16px] font-normal font-main text-[#9F9F9F]">
+                          {" "}
+                          I make a to-do list project where user
+                          add,delete,update & chnage his/him to-do.{" "}
+                        </p>{" "}
                       </div>
-                      <div
-                        data-aos="zoom-in-right"
-                        className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"
-                      >
-                        <img
-                          src={todo}
-                          alt="portfolio img"
-                          className="w-full h-full object-cover"
-                        />
+
+                      <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
+                        <Link to={"/"}>View</Link>
                       </div>
                     </div>
+                    <div
+                      data-aos="zoom-in-right"
+                      className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"
+                    >
+                      <img
+                        src={todo}
+                        alt="portfolio img"
+                        className="w-full h-full object-cover"
+                      />
+                    </div>
+                  </div>
                 )}
                 {activeTab === 3 && (
                   <div id="messages" className="text-white p-[20px]">
@@ -420,7 +419,7 @@ const Portfolio = () => {
                 )}
 
                 {activeTab === 4 && (
-              <div id="profile" className="text-white p-[20px]">
+                  <div id="profile" className="text-white p-[20px]">
                     {" "}
                     <div className="flex gap-[40px] justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
                       <div

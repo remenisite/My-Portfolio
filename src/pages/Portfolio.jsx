@@ -244,7 +244,7 @@ const Portfolio = () => {
                 )}
                 {activeTab === 3 && (
                   <div id="messages" className="text-white p-[20px]">
-                    <div className="flex gap-[40px] justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
+                    {/* <div className="flex gap-[40px] justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
                       <div
                         data-aos="fade-right"
                         className="w-[400px] h-[400px] overflow-hidden max-md:w-full max-md:h-[220px]"
@@ -276,7 +276,50 @@ const Portfolio = () => {
                           </a>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
+
+                    <div className="flex items-center gap-10 justify-center max-lg:flex-col max-lg:gap-6">
+  {/* Image Section */}
+  <div
+    data-aos="fade-right"
+    className="w-[420px] h-[420px] rounded-2xl overflow-hidden shadow-lg max-md:w-full max-md:h-[240px]"
+  >
+    <img
+      src={ec5}
+      alt="portfolio img"
+      className="w-full h-full object-cover hover:scale-105 duration-500"
+    />
+  </div>
+
+  {/* Content Section */}
+  <div
+    data-aos="fade-left"
+    className="bg-gradient-to-br from-[#1b1b1b] to-[#111] rounded-2xl p-6 w-[520px] shadow-lg max-md:w-full"
+  >
+    <h2 className="text-[24px] font-semibold font-main text-white">
+      Nex-ton
+    </h2>
+
+    <div className="pt-4 pb-6">
+      <p className="text-[15px] leading-6 font-normal font-main text-[#bdbdbd]">
+        This is a React.js based e-commerce website built using React.js,
+        Tailwind CSS, Vanilla JavaScript, npm packages, and a fully
+        responsive design.
+      </p>
+    </div>
+
+    <div className="flex max-md:justify-center">
+      <a
+        href="https://nex-ton.vercel.app"
+        target="_blank"
+        className="px-8 py-2 text-sm font-semibold font-main text-white bg-[#009e66] rounded-full border border-[#009e66] hover:bg-transparent hover:text-[#009e66] duration-300"
+      >
+        View Project
+      </a>
+    </div>
+  </div>
+</div>
+
 
                     <div className="flex gap-[40px] my-[50px]  justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
                       <div

@@ -297,7 +297,7 @@ const Portfolio = () => {
     className="bg-gradient-to-br from-[#1b1b1b] to-[#111] rounded-2xl p-6 w-[520px] shadow-lg max-md:w-full"
   >
     <h2 className="text-[24px] font-semibold font-main text-white">
-      Nex-ton
+     E-commarce (Nex-ton)
     </h2>
 
     <div className="pt-4 pb-6">

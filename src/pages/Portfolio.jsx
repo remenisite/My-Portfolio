@@ -287,42 +287,6 @@ const Portfolio = () => {
                 )}
 
                 {activeTab === 4 && (
-                  // <div id="profile" className="text-white p-[20px]">
-                  //   {" "}
-                  //   <div className="flex gap-[40px] justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
-                  //     <div
-                  //       data-aos="fade-right"
-                  //       data-aos-offset="300"
-                  //       data-aos-easing="ease-in-sine"
-                  //       className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"
-                  //     >
-                  //       <img
-                  //         src={firebase}
-                  //         alt="portfolio img"
-                  //         className="w-full h-full object-cover"
-                  //       />
-                  //     </div>
-                  //     <div
-                  //       data-aos="fade-left"
-                  //       data-aos-offset="300"
-                  //       data-aos-easing="ease-in-sine"
-                  //       className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]"
-                  //     >
-                  //       <h2 className="text-[21px] font-medium font-main text-[#fff]">
-                  //         Firebase-Note
-                  //       </h2>
-                  //       <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
-                  //         <p className="text-[16px] font-normal font-main text-[#9F9F9F]">
-                  //           This is firebase note app project where user create
-                  //           delete update there note.{" "}
-                  //         </p>{" "}
-                  //       </div>
-                  //       <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
-                  //         <Link to={"/"}>View</Link>
-                  //       </div>
-                  //     </div>
-                  //   </div>{" "}
-                  // </div>
                   <div className="flex items-center gap-10 justify-center max-lg:flex-col max-lg:gap-6">
                     {/* Image Section */}
                     <div

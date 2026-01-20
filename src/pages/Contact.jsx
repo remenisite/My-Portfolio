@@ -14,7 +14,7 @@ const Contact = () => {
   <div class="wrap">
     <div class="animated-bar"></div>
   </div>
-        <div id="contact-row" className=" pt-[50px] lg:pt-[150px] lg:flex justify-center">
+        <div id="contact-row" className=" pt-[50px] lg:pt-[150px] lg:flex justify-center gap-[100px]">
             {/* ---------------- cross button */}
             <div className="fixed top-4 right-4 lg:absolute lg:top-[30px] lg:right-[60px] z-50">
               <Link to={"/"}>

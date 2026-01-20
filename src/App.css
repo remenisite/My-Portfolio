@@ -192,23 +192,9 @@ h1 {
   }
 }
 
-.image-container {
-  position: relative;
-  width: 100%;
-  max-width: 450px; /* Adjust as needed */
-  aspect-ratio: 1 / 1;
-  border-radius: 50%;
-  overflow: hidden;
-  background-color: rgba(255, 255, 255, 0.692);
-
-}
-
-.image-container img {
+.picture{
   position: absolute;
-  top: 80%;
-  left: 50%;
-  width: 100%;
-  height: auto;
-  transform: translate(-50%, -50%);
-  object-fit: cover;
+  top: 0;
+  left: 0;
+
 }

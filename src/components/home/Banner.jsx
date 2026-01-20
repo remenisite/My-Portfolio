@@ -88,9 +88,17 @@ const Banner = () => {
             </div>
           </div>
           {/* Right Image */}
+<div className="w-[300px] h-[300px] relative rounded-full bg-[#ffffff51] overflow-hidden mb-6 md:mb-0">
+  <img
+    className="absolute top-[-86px] left-[30px] w-full h-full object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
+    src={banner2}
+    alt="Antor Karmaker portrait"
+  />
+</div>
          
-          <div className="hidden lg:block lg:w-[350px] lg:h-[350px] xl:w-[450px] xl:h-[450px] relative rounded-full bg-[#ffffff98] overflow-hidden">
-          </div>
+          {/* <div className="hidden lg:block  xl:w-[400px] xl:h-[400px] relative rounded-full bg-[#ffffff98] overflow-hidden">
+            <img className="picture"  src={banner2} alt="picture" />
+          </div> */}
         </div>
       </div>
     </section>

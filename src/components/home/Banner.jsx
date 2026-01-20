@@ -10,7 +10,7 @@ const Banner = () => {
       className="relative overflow-hidden pt-[90px] lg:pt-[150px] min-h-screen bg-[#101010]"
     >
       {/* ----------- icons */}
-      {/* <div className="flex lg:flex-col absolute top-[92%] right-4 lg:top-[65%] lg:right-18  gap-4 z-10">
+      <div className="flex lg:flex-col absolute top-[92%] right-4 lg:top-[65%] lg:right-18  gap-4 z-10">
         <a
           target="_black"
           className="w-8 h-8 bg-black text-white flex justify-center items-center rounded-full hover:bg-[#A53DFF] transition-colors"
@@ -43,7 +43,7 @@ const Banner = () => {
         >
           <TbBrandGithub />
         </a>
-      </div> */}
+      </div>
       <div className="container">
         <div
           id="banner-row"
@@ -88,17 +88,15 @@ const Banner = () => {
             </div>
           </div>
           {/* Right Image */}
-<div className="w-[300px] h-[300px] relative rounded-full bg-[#ffffff51] overflow-hidden mb-6 md:mb-0">
-  <img
-    className="absolute top-[-86px] left-[30px] w-full h-full object-cover transform transition-transform duration-300 ease-in-out hover:scale-110"
-    src={banner2}
-    alt="Antor Karmaker portrait"
-  />
-</div>
-         
-          {/* <div className="hidden lg:block  xl:w-[400px] xl:h-[400px] relative rounded-full bg-[#ffffff98] overflow-hidden">
-            <img className="picture"  src={banner2} alt="picture" />
-          </div> */}
+
+          <div className="hidden lg:block lg:w-[350px] lg:h-[350px] xl:w-[450px] xl:h-[450px] relative rounded-full bg-[#ffffffce] overflow-hidden ">
+            <div
+              className="w-[100%] h-[100%] bg-cover bg-center transform transition-transform duration-300 ease-in-out hover:scale-110"
+              style={{
+                backgroundImage: `url(${banner2})`,
+              }}
+            />
+          </div>
         </div>
       </div>
     </section>

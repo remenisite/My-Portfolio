@@ -3,9 +3,8 @@ import { Link } from "react-router";
 import CommonHead from "../components/common/CommonHead";
 import { RxCross1 } from "react-icons/rx";
 import ec5 from "../assets/images/nexton (ec).png";
+import urlImg from "../assets/images/urlImg.png";
 import firebase from "../assets/images/firebase copy.png";
-import whether from "../assets/images/wheter(js).png";
-import multi from "../assets/images/multi.png";
 import todo from "../assets/images/to-do.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -104,102 +103,44 @@ const Portfolio = () => {
               {/* Tab Content */}
               <div className="tab-content">
                 {activeTab === 1 && (
-                  <div id="home" className="text-white p-[20px]">
-                    {" "}
-                    <div className="flex gap-[40px] my-[50px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
-                      <div
-                        data-aos="zoom-in-left"
-                        className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]"
-                      >
-                        <h2 className="text-[21px] font-medium font-main text-[#fff]">
-                          Js-To-do
-                        </h2>
-                        <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
-                          <p className="text-[16px] font-normal font-main text-[#9F9F9F]">
-                            {" "}
-                            I make a to-do list project where user
-                            add,delete,update & chnage his/him to-do.{" "}
-                          </p>{" "}
-                        </div>
+                  <div id="messages" className="text-white p-[20px]">
+                    {/* --------------nexton ------------- */}
 
-                        <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
-                          <Link to={"/"}>View</Link>
-                        </div>
-                      </div>
-                      <div
-                        data-aos="zoom-in-right"
-                        className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"
-                      >
-                        <img
-                          src={todo}
-                          alt="portfolio img"
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
-                    </div>
-                    <div className="flex gap-[40px] justify-center max-lg:flex-col max-lg:items-center max-lg:gap-[20px]">
-                      <div
-                        data-aos="fade-right"
-                        className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"
-                      >
-                        <img
-                          src={multi}
-                          alt="portfolio img"
-                          className="w-full h-full object-cover"
-                        />
-                      </div>
+                    <div className="flex items-center gap-10 justify-center max-lg:flex-col max-lg:gap-6">
+                      {/* Content Section */}
                       <div
                         data-aos="fade-left"
-                        className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]"
+                        className="bg-gradient-to-br from-[#1b1b1b] to-[#111] rounded-2xl p-6 w-[520px] shadow-lg max-md:w-full"
                       >
-                        <h2 className="text-[21px] font-medium font-main text-[#fff]">
-                          Js-Multiplication
+                        <h2 className="text-[24px] font-semibold font-main text-white">
+                          Url Shortner
                         </h2>
-                        <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
-                          <p className="text-[16px] font-normal font-main text-[#9F9F9F]">
-                            This is a Javascript project when I use make a
-                            simple use for loop & fatch a fake api.{" "}
-                          </p>{" "}
+
+                        <div className="pt-4 pb-6">
+                          <p className="text-[15px] leading-6 font-normal font-main text-[#bdbdbd]">
+                      A URL shortener is a simple tool that turns long, messy web links into short, clean, and easy-to-share URLs—perfect for social media, messaging, and tracking clicks.
+                          </p>
                         </div>
 
-                        <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
-                          <Link to={"/"}>View</Link>
+                        <div className="flex max-md:justify-center">
+                          <a
+                            href="https://nex-ton.vercel.app"
+                            target="_blank"
+                            className="px-8 py-2 text-sm font-semibold font-main text-white bg-[#009e66] rounded-full border border-[#009e66] hover:bg-transparent hover:text-[#009e66] duration-300"
+                          >
+                            View Project
+                          </a>
                         </div>
                       </div>
-                    </div>
-                    <div className="flex gap-[40px]  my-[50px] justify-center max-lg:flex-col-reverse max-lg:items-center max-lg:gap-[20px]">
+                      {/* Image Section */}
                       <div
                         data-aos="fade-right"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine"
-                        className="bg-[#161616] h-[280px] px-[20px] pt-[20px] max-md:w-full max-md:h-auto max-md:pb-[20px]"
-                      >
-                        <h2 className="text-[21px] font-medium font-main text-[#fff]">
-                          Js-Whether
-                        </h2>
-                        <div className="w-[500px] pt-[20px] pb-[50px] max-md:w-full max-md:pb-[20px]">
-                          <p className="text-[16px] font-normal font-main text-[#9F9F9F]">
-                            {" "}
-                            This is a JavaScript API Fetch project where APIs
-                            are exposed asynchronously & real-time based APIs
-                            are made by exposing APIs.{" "}
-                          </p>{" "}
-                        </div>
-
-                        <div className="w-[100px] flex justify-center py-[10px] px-[35px] hover:text-[#009e66] duration-[.4s] hover:bg-transparent text-base font-semibold font-main text-[#fff] bg-[#009e66] border-[#009e66] rounded-full border max-md:mx-auto">
-                          <Link to={"/"}>View</Link>
-                        </div>
-                      </div>
-                      <div
-                        data-aos="fade-left"
-                        data-aos-offset="300"
-                        data-aos-easing="ease-in-sine"
-                        className="w-[400px] h-[350px] bg-red-300 max-md:w-full max-md:h-[220px]"
+                        className="w-[420px] h-[420px] rounded-2xl overflow-hidden shadow-lg max-md:w-full max-md:h-[240px]"
                       >
                         <img
-                          src={whether}
+                          src={urlImg}
                           alt="portfolio img"
-                          className="w-full h-full object-cover"
+                          className="w-full h-full object-cover hover:scale-105 duration-500"
                         />
                       </div>
                     </div>

@@ -62,9 +62,8 @@ const About = () => {
                 </h2>
               </div>
               <div className="flex justify-between">
-
-              <Frontend />
-              <Backend />
+                <Frontend />
+                <Backend />
               </div>
             </div>
 

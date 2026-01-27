@@ -8,13 +8,9 @@ const Profile = () => {
       <div className=" lg:flex mx-auto lg:mx-0 justify-center gap-[100px] items-center mt-[50px]  lg:mt-[140px]">
         {/* ------------ left-side */}
 
-        <div className="w-[400px] h-[400px]  relative bg-white rounded-[8px]">
-          <img
-            className="w-[600px] h-[418px] absolute top-[-18px] left-0 "
-            src={profileImg}
-            alt="about-img"
-          />
-        </div>
+    <div className="flex-shrink-0">
+        <img src={profileImg} alt="Antor" className="w-100 h-100 rounded-[40px] border-4 border-teal-500 shadow-md object-cover" />
+      </div>
 
         {/* ----------- right-side */}
         <div className="">

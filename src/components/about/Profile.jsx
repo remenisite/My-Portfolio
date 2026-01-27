@@ -5,12 +5,24 @@ const Profile = () => {
   return (
     <>
       {/* ---------- images part */}
-      <div className=" lg:flex mx-auto lg:mx-0 justify-center gap-[100px] items-center mt-[50px]  lg:mt-[140px]">
+      <div className=" lg:flex mx-auto lg:mx-0 justify-center gap-[100px]  items-center mt-[50px]  lg:mt-[140px]">
         {/* ------------ left-side */}
 
-    <div className="flex-shrink-0">
-        <img src={profileImg} alt="Antor" className="w-100 h-100 rounded-[40px] border-4 border-teal-500 shadow-md object-cover" />
-      </div>
+        <div class=" flex items-center justify-center">
+          {/* <!-- Oval Frame --> */}
+          <div class="relative">
+            {/* <!-- Border --> */}
+            <div class="w-[350px] h-[450px] rounded-[999px] border-[2px] overflow-hidden border-teal-400 flex items-center justify-center bg-neutral-800">
+              {/* <!-- Image --> */}
+ 
+                  <img
+                            className="max-w-[500px]"
+                            src={profileImg}
+                            alt="Antor Karmaker portrait"
+                          />
+            </div>
+          </div>
+        </div>
 
         {/* ----------- right-side */}
         <div className="">
